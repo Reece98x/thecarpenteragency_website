@@ -2,29 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23141412'/%3E%3Ctext x='16' y='25' text-anchor='middle' font-family='Georgia%2C serif' font-size='23' font-weight='700' fill='%23C8A96E'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231E2620'/%3E%3Ctext x='16' y='25' text-anchor='middle' font-family='Georgia%2C serif' font-size='23' font-weight='700' fill='%23C9874A'%3EC%3C/text%3E%3C/svg%3E">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Carpenter Agency | Your Website. Built in 24 Hours.</title>
 <meta name="description" content="A 5-page professional website for carpenters and joiners. Built in 24 hours. £750. Full refund guaranteed if we miss the deadline.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
 :root{
-  --bg:#141412;
-  --bg-alt:#1c1c19;
-  --card:#1e1e1b;
-  --accent:#C8A96E;
+  --bg:#1E2620;
+  --bg-alt:#1E2620;
+  --card:#2A332C;
+  --accent:#C9874A;
   --accent-l:#d9bb85;
-  --accent-d:rgba(200,169,110,.12);
-  --text:#e8e4dc;
-  --muted:#9a968e;
-  --border:rgba(200,169,110,.18);
+  --accent-d:rgba(201,135,74,.12);
+  --text:#F0EBDD;
+  --muted:#8C8576;
+  --border:rgba(201,135,74,.18);
   --border-s:rgba(255,255,255,.055);
-  --fh:'Playfair Display',Georgia,serif;
-  --fb:'DM Sans',system-ui,sans-serif;
+  --fh:'Cormorant Garamond',Georgia,serif;
+  --fb:'Work Sans',system-ui,sans-serif;
   --mw:1140px;
   --sp:96px 24px;
 }
@@ -49,9 +49,9 @@ body::after{
 }
 
 h1,h2,h3,h4{font-family:var(--fh);line-height:1.12;color:var(--text)}
-h1{font-size:clamp(2.4rem,5.5vw,4.2rem);font-weight:700}
-h2{font-size:clamp(1.9rem,4vw,3rem);font-weight:700}
-h3{font-size:clamp(1.15rem,2vw,1.5rem);font-weight:600}
+h1{font-size:clamp(2.4rem,5.5vw,4.2rem);font-weight:300}
+h2{font-size:clamp(1.9rem,4vw,3rem);font-weight:300}
+h3{font-size:clamp(1.15rem,2vw,1.5rem);font-weight:400}
 p{color:var(--text)}
 em{font-style:italic;color:var(--accent)}
 strong{color:var(--text)}
@@ -79,9 +79,9 @@ section{padding:var(--sp);position:relative;z-index:1}
   cursor:pointer;border:none;
   transition:all .22s ease;letter-spacing:.01em;
 }
-.btn-gold{background:var(--accent);color:#141412}
-.btn-gold:hover{background:var(--accent-l);transform:translateY(-2px);box-shadow:0 8px 28px rgba(200,169,110,.3)}
-.btn-ghost{background:transparent;color:var(--text);border:1px solid rgba(232,228,220,.22)}
+.btn-gold{background:var(--accent);color:#1E2620}
+.btn-gold:hover{background:var(--accent-l);transform:translateY(-2px);box-shadow:0 8px 28px rgba(201,135,74,.3)}
+.btn-ghost{background:transparent;color:var(--text);border:1px solid rgba(240,235,221,.22)}
 .btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
 .btn-lg{padding:18px 40px;font-size:1.08rem}
 
@@ -92,7 +92,7 @@ nav{
   transition:all .3s ease;
 }
 nav.scrolled{
-  background:rgba(20,20,18,.9);
+  background:rgba(30,38,32,.9);
   backdrop-filter:blur(18px);
   -webkit-backdrop-filter:blur(18px);
   border-bottom:1px solid var(--border-s);
@@ -102,7 +102,7 @@ nav.scrolled{
   max-width:var(--mw);margin:0 auto;
   display:flex;align-items:center;justify-content:space-between;
 }
-.nav-logo{font-family:var(--fh);font-size:1.15rem;font-weight:700;color:var(--text);text-decoration:none}
+.nav-logo{font-family:var(--fh);font-size:1.15rem;font-weight:300;color:var(--text);text-decoration:none}
 .nav-logo span{color:var(--accent)}
 .nav-links{display:flex;list-style:none;gap:32px;align-items:center}
 .nav-links a{color:var(--muted);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s}
@@ -116,13 +116,13 @@ nav.scrolled{
 /* MOBILE MENU */
 .mob-menu{
   display:none;position:fixed;inset:0;
-  background:rgba(20,20,18,.97);
+  background:rgba(30,38,32,.97);
   backdrop-filter:blur(20px);
   z-index:850;
   flex-direction:column;align-items:center;justify-content:center;gap:36px;
 }
 .mob-menu.open{display:flex}
-.mob-menu a{font-family:var(--fh);font-size:1.9rem;color:var(--text);text-decoration:none;font-weight:600}
+.mob-menu a{font-family:var(--fh);font-size:1.9rem;color:var(--text);text-decoration:none;font-weight:400}
 .mob-menu a:hover{color:var(--accent)}
 .mob-close{position:absolute;top:22px;right:26px;font-size:2rem;color:var(--muted);cursor:pointer;background:none;border:none;line-height:1}
 
@@ -131,7 +131,7 @@ nav.scrolled{
   display:none;
   position:fixed;bottom:0;left:0;right:0;
   z-index:700;
-  background:var(--accent);color:#141412;
+  background:var(--accent);color:#1E2620;
   text-align:center;text-decoration:none;
   font-family:var(--fb);font-weight:700;font-size:1rem;
   padding:16px 20px;
@@ -149,13 +149,13 @@ nav.scrolled{
   position:absolute;top:46%;left:50%;
   transform:translate(-50%,-50%);
   width:920px;height:600px;
-  background:radial-gradient(ellipse at center,rgba(200,169,110,.11) 0%,transparent 62%);
+  background:radial-gradient(ellipse at center,rgba(201,135,74,.11) 0%,transparent 62%);
   pointer-events:none;
 }
 .hero-content{max-width:var(--mw);margin:0 auto;position:relative;z-index:1}
 .hero-pill{
   display:inline-flex;align-items:center;gap:8px;
-  background:rgba(200,169,110,.09);border:1px solid rgba(200,169,110,.24);
+  background:rgba(201,135,74,.09);border:1px solid rgba(201,135,74,.24);
   border-radius:40px;padding:8px 18px;
   font-size:.72rem;font-weight:700;
   letter-spacing:.12em;text-transform:uppercase;
@@ -171,7 +171,7 @@ nav.scrolled{
   padding-top:40px;border-top:1px solid var(--border-s);
   display:flex;gap:44px;flex-wrap:wrap;
 }
-.stat strong{display:block;font-family:var(--fh);font-size:1.85rem;color:var(--accent);font-weight:700;line-height:1.1}
+.stat strong{display:block;font-family:var(--fh);font-size:1.85rem;color:var(--accent);font-weight:300;line-height:1.1}
 .stat span{font-size:.8rem;color:var(--muted)}
 
 /* GUARANTEE */
@@ -183,28 +183,28 @@ nav.scrolled{
   position:absolute;top:50%;left:50%;
   transform:translate(-50%,-50%);
   width:720px;height:440px;
-  background:radial-gradient(ellipse at center,rgba(200,169,110,.1) 0%,transparent 64%);
+  background:radial-gradient(ellipse at center,rgba(201,135,74,.1) 0%,transparent 64%);
   pointer-events:none;
 }
 .guar-inner{position:relative;z-index:1;max-width:700px;margin:0 auto}
 .guar-badge{
   display:inline-block;padding:9px 22px;
-  border:1px solid rgba(200,169,110,.3);border-radius:40px;
+  border:1px solid rgba(201,135,74,.3);border-radius:40px;
   font-size:.7rem;font-weight:700;
   letter-spacing:.16em;text-transform:uppercase;
   color:var(--accent);margin-bottom:28px;
 }
-.guarantee h2{font-size:clamp(2.3rem,5vw,3.7rem);margin-bottom:24px;line-height:1.1;text-shadow:0 0 40px rgba(200,169,110,.15);letter-spacing:-.01em}
+.guarantee h2{font-size:clamp(2.3rem,5vw,3.7rem);margin-bottom:24px;line-height:1.1;text-shadow:0 0 40px rgba(201,135,74,.15);letter-spacing:-.01em}
 .guar-body{font-size:1.05rem;color:var(--muted);line-height:1.8;margin-bottom:16px}
 .guar-bold{
-  font-family:var(--fh);font-size:1.12rem;font-weight:600;
+  font-family:var(--fh);font-size:1.12rem;font-weight:400;
   color:var(--text);margin-bottom:16px;line-height:1.55;
 }
 .guar-foot{font-size:.95rem;color:var(--muted);line-height:1.8;margin-bottom:32px}
 .guar-rule{
   display:inline-flex;align-items:center;gap:11px;
   padding:14px 26px;
-  background:rgba(200,169,110,.07);border:1px solid rgba(200,169,110,.22);
+  background:rgba(201,135,74,.07);border:1px solid rgba(201,135,74,.22);
   border-radius:7px;
   font-size:.88rem;font-weight:500;color:var(--accent);
   margin-bottom:36px;
@@ -229,8 +229,8 @@ nav.scrolled{
 .prob-card p strong{color:var(--text)}
 .prob-callout{
   padding:28px 32px;
-  background:rgba(200,169,110,.055);
-  border:1px solid rgba(200,169,110,.22);
+  background:rgba(201,135,74,.055);
+  border:1px solid rgba(201,135,74,.22);
   border-radius:8px;
 }
 .prob-callout p{font-size:1rem;color:var(--text);line-height:1.8}
@@ -246,7 +246,7 @@ nav.scrolled{
 .sub-label-gap{margin-top:20px}
 .pages-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:44px}
 .page-card{
-  background:var(--card);border:none;border-top:2px solid rgba(200,169,110,.3);
+  background:var(--card);border:none;border-top:2px solid rgba(201,135,74,.3);
   border-radius:8px;padding:22px 16px;
   transition:border-top-color .22s;
 }
@@ -284,7 +284,7 @@ nav.scrolled{
 .step{background:var(--card);padding:38px 30px 38px 27px;border-left:3px solid var(--accent)}
 .step:first-child{border-radius:8px 0 0 8px}
 .step:last-child{border-radius:0 8px 8px 0}
-.step-num{font-family:var(--fh);font-size:3.4rem;font-weight:700;color:rgba(200,169,110,.11);line-height:1;margin-bottom:18px}
+.step-num{font-family:var(--fh);font-size:3.4rem;font-weight:300;color:rgba(201,135,74,.11);line-height:1;margin-bottom:18px}
 .step-lbl{font-size:.67rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin-bottom:9px}
 .step h3{font-size:1.12rem;margin-bottom:10px}
 .step p{font-size:.89rem;color:var(--muted);line-height:1.75}
@@ -301,14 +301,14 @@ nav.scrolled{
   background:var(--card);border:1px solid var(--border);
   border-radius:12px;padding:38px 34px;
 }
-.price-tag{font-family:var(--fh);font-size:4.4rem;font-weight:700;color:var(--accent);line-height:1;margin-bottom:5px}
+.price-tag{font-family:var(--fh);font-size:4.4rem;font-weight:300;color:var(--accent);line-height:1;margin-bottom:5px}
 .price-tag small{font-size:1.7rem;font-weight:400}
 .price-note{font-size:.87rem;color:var(--muted);margin-bottom:26px}
 .price-hr{border:none;border-top:1px solid var(--border-s);margin:0 0 22px}
 .inc-label{font-size:.67rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
 .inc-item{display:flex;align-items:flex-start;gap:12px;margin-bottom:12px}
 .inc-check{
-  width:17px;height:17px;background:rgba(200,169,110,.14);
+  width:17px;height:17px;background:rgba(201,135,74,.14);
   border-radius:50%;
   display:flex;align-items:center;justify-content:center;
   flex-shrink:0;margin-top:2px;
@@ -327,7 +327,7 @@ nav.scrolled{
 .addon-opts{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .opt-pill{padding:6px 12px;border:1px solid var(--border-s);border-radius:5px;font-size:.79rem;color:var(--text)}
 .opt-pill strong{color:var(--accent)}
-.addon-price{font-family:var(--fh);font-size:1.5rem;font-weight:700;color:var(--accent);margin-bottom:8px}
+.addon-price{font-family:var(--fh);font-size:1.5rem;font-weight:300;color:var(--accent);margin-bottom:8px}
 .addon-price span{font-size:.85rem;font-weight:400;color:var(--muted)}
 .addon-card p{font-size:.81rem;color:var(--muted);line-height:1.65}
 
@@ -352,7 +352,7 @@ nav.scrolled{
   flex-shrink:0;transition:background .22s;
 }
 .faq-ico svg{width:12px;height:12px;stroke:var(--accent);fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s ease}
-.faq-item.open .faq-ico{background:rgba(200,169,110,.2)}
+.faq-item.open .faq-ico{background:rgba(201,135,74,.2)}
 .faq-item.open .faq-ico svg{transform:rotate(45deg)}
 .faq-ans{overflow:hidden;max-height:0;transition:max-height .35s ease}
 .faq-ans-inner{padding:0 0 24px;font-size:.91rem;color:var(--muted);line-height:1.8}
@@ -366,7 +366,7 @@ nav.scrolled{
   position:absolute;top:50%;left:50%;
   transform:translate(-50%,-50%);
   width:800px;height:500px;
-  background:radial-gradient(ellipse at center,rgba(200,169,110,.1) 0%,transparent 64%);
+  background:radial-gradient(ellipse at center,rgba(201,135,74,.1) 0%,transparent 64%);
   pointer-events:none;
 }
 .final-inner{position:relative;z-index:1;max-width:660px;margin:0 auto}
@@ -385,7 +385,7 @@ footer{background:#0f0f0d;border-top:1px solid var(--border-s);padding:42px 24px
   display:flex;align-items:center;justify-content:space-between;
   flex-wrap:wrap;gap:16px;
 }
-.foot-logo{font-family:var(--fh);font-size:1.08rem;font-weight:700;color:var(--text)}
+.foot-logo{font-family:var(--fh);font-size:1.08rem;font-weight:300;color:var(--text)}
 .foot-logo span{color:var(--accent)}
 .foot-email{color:var(--muted);font-size:.87rem;text-decoration:none;transition:color .2s}
 .foot-email:hover{color:var(--accent)}
@@ -438,7 +438,7 @@ footer{background:#0f0f0d;border-top:1px solid var(--border-s);padding:42px 24px
   content:'';
   position:absolute;inset:0;
   transform:translate(8px,8px);
-  border:1px solid rgba(200,169,110,.3);
+  border:1px solid rgba(201,135,74,.3);
   border-radius:12px;
   pointer-events:none;
   z-index:-1;
@@ -447,12 +447,12 @@ footer{background:#0f0f0d;border-top:1px solid var(--border-s);padding:42px 24px
   width:200px;height:auto;
   border-radius:12px;
   object-fit:cover;
-  border:1px solid rgba(200,169,110,.3);
+  border:1px solid rgba(201,135,74,.3);
   display:block;
 }
 .trust-text{
-  font-family:'DM Sans',system-ui,sans-serif;
-  font-size:.95rem;color:#e8e4dc;line-height:1.6;max-width:340px;
+  font-family:'Work Sans',system-ui,sans-serif;
+  font-size:.95rem;color:#F0EBDD;line-height:1.6;max-width:340px;
 }
 .trust-tagline{color:var(--accent);font-weight:600;margin-top:10px;font-size:.92rem}
 
@@ -464,12 +464,12 @@ footer{background:#0f0f0d;border-top:1px solid var(--border-s);padding:42px 24px
 
 .prob-card:hover,.step:hover{
   transform:translateY(-4px);
-  box-shadow:0 0 0 1px rgba(200,169,110,.25),0 8px 30px rgba(200,169,110,.08);
+  box-shadow:0 0 0 1px rgba(201,135,74,.25),0 8px 30px rgba(201,135,74,.08);
 }
 .page-card:hover,.extra-card:hover,.addon-card:hover,.price-main:hover{
   transform:translateY(-4px);
-  border-color:rgba(200,169,110,.25);
-  box-shadow:0 8px 30px rgba(200,169,110,.08);
+  border-color:rgba(201,135,74,.25);
+  box-shadow:0 8px 30px rgba(201,135,74,.08);
 }
 
 .prob-icon,.page-icon,.extra-icon{transition:transform .4s ease}
@@ -509,14 +509,14 @@ footer{background:#0f0f0d;border-top:1px solid var(--border-s);padding:42px 24px
 .prob-card,.page-card,.extra-card,.step,.price-main,.addon-card{overflow:hidden}
 .prob-card::before,.page-card::before,.extra-card::before,.step::before,.price-main::before,.addon-card::before{
   content:'';position:absolute;inset:0;pointer-events:none;z-index:0;border-radius:inherit;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cpath d='M0 28 Q50 23 100 29 Q152 35 200 28' stroke='%23C8A96E' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 68 Q58 62 100 70 Q144 78 200 68' stroke='%23C8A96E' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 108 Q48 102 100 110 Q150 118 200 108' stroke='%23C8A96E' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 148 Q60 142 100 150 Q142 158 200 148' stroke='%23C8A96E' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 188 Q50 182 100 190 Q152 198 200 188' stroke='%23C8A96E' stroke-width='0.7' fill='none'/%3E%3C/svg%3E");
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cpath d='M0 28 Q50 23 100 29 Q152 35 200 28' stroke='%23C9874A' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 68 Q58 62 100 70 Q144 78 200 68' stroke='%23C9874A' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 108 Q48 102 100 110 Q150 118 200 108' stroke='%23C9874A' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 148 Q60 142 100 150 Q142 158 200 148' stroke='%23C9874A' stroke-width='0.7' fill='none'/%3E%3Cpath d='M0 188 Q50 182 100 190 Q152 198 200 188' stroke='%23C9874A' stroke-width='0.7' fill='none'/%3E%3C/svg%3E");
   background-size:200px 200px;opacity:.027;
 }
 
 /* === HIW BLUEPRINT GRID === */
 .hiw::before{
   content:'';position:absolute;inset:0;pointer-events:none;
-  background-image:linear-gradient(rgba(200,169,110,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,169,110,.04) 1px,transparent 1px);
+  background-image:linear-gradient(rgba(201,135,74,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,135,74,.04) 1px,transparent 1px);
   background-size:40px 40px;
 }
 
@@ -544,69 +544,69 @@ h1{font-size:clamp(1.9rem,3.9vw,3.5rem);line-height:1.1}
 <div class="bg-tools" aria-hidden="true">
   <!-- Carpenter's square -->
   <svg class="bgt bgt-sq" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path d="M16 8 L28 8 L28 76 L88 76 L88 88 L16 88 Z" stroke="#C8A96E" stroke-width="2.2" stroke-linejoin="round"/>
-    <line x1="16" y1="24" x2="23" y2="24" stroke="#C8A96E" stroke-width="1.2"/>
-    <line x1="16" y1="38" x2="20" y2="38" stroke="#C8A96E" stroke-width=".8"/>
-    <line x1="16" y1="52" x2="23" y2="52" stroke="#C8A96E" stroke-width="1.2"/>
-    <line x1="16" y1="66" x2="20" y2="66" stroke="#C8A96E" stroke-width=".8"/>
-    <line x1="38" y1="76" x2="38" y2="83" stroke="#C8A96E" stroke-width="1.2"/>
-    <line x1="52" y1="76" x2="52" y2="80" stroke="#C8A96E" stroke-width=".8"/>
-    <line x1="66" y1="76" x2="66" y2="83" stroke="#C8A96E" stroke-width="1.2"/>
-    <line x1="78" y1="76" x2="78" y2="80" stroke="#C8A96E" stroke-width=".8"/>
+    <path d="M16 8 L28 8 L28 76 L88 76 L88 88 L16 88 Z" stroke="#C9874A" stroke-width="2.2" stroke-linejoin="round"/>
+    <line x1="16" y1="24" x2="23" y2="24" stroke="#C9874A" stroke-width="1.2"/>
+    <line x1="16" y1="38" x2="20" y2="38" stroke="#C9874A" stroke-width=".8"/>
+    <line x1="16" y1="52" x2="23" y2="52" stroke="#C9874A" stroke-width="1.2"/>
+    <line x1="16" y1="66" x2="20" y2="66" stroke="#C9874A" stroke-width=".8"/>
+    <line x1="38" y1="76" x2="38" y2="83" stroke="#C9874A" stroke-width="1.2"/>
+    <line x1="52" y1="76" x2="52" y2="80" stroke="#C9874A" stroke-width=".8"/>
+    <line x1="66" y1="76" x2="66" y2="83" stroke="#C9874A" stroke-width="1.2"/>
+    <line x1="78" y1="76" x2="78" y2="80" stroke="#C9874A" stroke-width=".8"/>
   </svg>
   <!-- Sliding bevel -->
   <svg class="bgt bgt-bv" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
-    <rect x="5" y="34" width="63" height="18" rx="2" stroke="#C8A96E" stroke-width="2" stroke-linejoin="round"/>
-    <line x1="18" y1="34" x2="18" y2="52" stroke="#C8A96E" stroke-width=".9"/>
-    <line x1="68" y1="34" x2="68" y2="52" stroke="#C8A96E" stroke-width="2"/>
-    <line x1="22" y1="43" x2="67" y2="97" stroke="#C8A96E" stroke-width="2" stroke-linecap="round"/>
-    <circle cx="22" cy="43" r="4.5" stroke="#C8A96E" stroke-width="1.5"/>
-    <line x1="18" y1="43" x2="26" y2="43" stroke="#C8A96E" stroke-width="1.2"/>
-    <line x1="22" y1="39" x2="22" y2="47" stroke="#C8A96E" stroke-width="1.2"/>
+    <rect x="5" y="34" width="63" height="18" rx="2" stroke="#C9874A" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="18" y1="34" x2="18" y2="52" stroke="#C9874A" stroke-width=".9"/>
+    <line x1="68" y1="34" x2="68" y2="52" stroke="#C9874A" stroke-width="2"/>
+    <line x1="22" y1="43" x2="67" y2="97" stroke="#C9874A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="22" cy="43" r="4.5" stroke="#C9874A" stroke-width="1.5"/>
+    <line x1="18" y1="43" x2="26" y2="43" stroke="#C9874A" stroke-width="1.2"/>
+    <line x1="22" y1="39" x2="22" y2="47" stroke="#C9874A" stroke-width="1.2"/>
   </svg>
   <!-- Marking gauge -->
   <svg class="bgt bgt-mg" viewBox="0 0 130 90" xmlns="http://www.w3.org/2000/svg">
-    <rect x="8" y="36" width="112" height="11" rx="1.5" stroke="#C8A96E" stroke-width="1.8"/>
-    <rect x="30" y="17" width="21" height="48" rx="2" stroke="#C8A96E" stroke-width="2"/>
-    <circle cx="40" cy="24" r="3.5" stroke="#C8A96E" stroke-width="1.3"/>
-    <line x1="37" y1="24" x2="43" y2="24" stroke="#C8A96E" stroke-width="1"/>
-    <line x1="116" y1="36" x2="116" y2="47" stroke="#C8A96E" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="113" y1="43" x2="119" y2="47" stroke="#C8A96E" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="8" y="36" width="112" height="11" rx="1.5" stroke="#C9874A" stroke-width="1.8"/>
+    <rect x="30" y="17" width="21" height="48" rx="2" stroke="#C9874A" stroke-width="2"/>
+    <circle cx="40" cy="24" r="3.5" stroke="#C9874A" stroke-width="1.3"/>
+    <line x1="37" y1="24" x2="43" y2="24" stroke="#C9874A" stroke-width="1"/>
+    <line x1="116" y1="36" x2="116" y2="47" stroke="#C9874A" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="113" y1="43" x2="119" y2="47" stroke="#C9874A" stroke-width="1.5" stroke-linecap="round"/>
   </svg>
   <!-- Hammer -->
   <svg class="bgt bgt-hm" viewBox="0 0 70 160" xmlns="http://www.w3.org/2000/svg">
-    <line x1="35" y1="64" x2="35" y2="152" stroke="#C8A96E" stroke-width="5" stroke-linecap="round"/>
-    <path d="M 31 64 Q 28 58 30 52 L 38 52 Q 40 58 39 64 Z" stroke="#C8A96E" stroke-width="1.5" stroke-linejoin="round"/>
-    <rect x="12" y="38" width="46" height="26" rx="2" stroke="#C8A96E" stroke-width="2"/>
-    <line x1="58" y1="38" x2="58" y2="64" stroke="#C8A96E" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 12 44 Q 0 48 2 60" stroke="#C8A96E" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M 12 57 Q 0 60 1 72" stroke="#C8A96E" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="35" y1="64" x2="35" y2="152" stroke="#C9874A" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 31 64 Q 28 58 30 52 L 38 52 Q 40 58 39 64 Z" stroke="#C9874A" stroke-width="1.5" stroke-linejoin="round"/>
+    <rect x="12" y="38" width="46" height="26" rx="2" stroke="#C9874A" stroke-width="2"/>
+    <line x1="58" y1="38" x2="58" y2="64" stroke="#C9874A" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 12 44 Q 0 48 2 60" stroke="#C9874A" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M 12 57 Q 0 60 1 72" stroke="#C9874A" stroke-width="1.8" stroke-linecap="round"/>
   </svg>
   <!-- Chisel -->
   <svg class="bgt bgt-ch" viewBox="0 0 44 180" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="14" cy="9" rx="7" ry="4" stroke="#C8A96E" stroke-width="1.5"/>
-    <path d="M 8 12 L 20 12 Q 22 20 20 78 L 8 78 Q 6 20 8 12 Z" stroke="#C8A96E" stroke-width="1.8" stroke-linejoin="round"/>
-    <rect x="8" y="78" width="12" height="10" rx="1" stroke="#C8A96E" stroke-width="2"/>
-    <path d="M 8 88 L 7 162 L 21 162 L 20 88 Z" stroke="#C8A96E" stroke-width="1.5" stroke-linejoin="round"/>
-    <line x1="7" y1="162" x2="21" y2="162" stroke="#C8A96E" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="7" y1="155" x2="21" y2="162" stroke="#C8A96E" stroke-width="1" stroke-linecap="round"/>
+    <ellipse cx="14" cy="9" rx="7" ry="4" stroke="#C9874A" stroke-width="1.5"/>
+    <path d="M 8 12 L 20 12 Q 22 20 20 78 L 8 78 Q 6 20 8 12 Z" stroke="#C9874A" stroke-width="1.8" stroke-linejoin="round"/>
+    <rect x="8" y="78" width="12" height="10" rx="1" stroke="#C9874A" stroke-width="2"/>
+    <path d="M 8 88 L 7 162 L 21 162 L 20 88 Z" stroke="#C9874A" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="7" y1="162" x2="21" y2="162" stroke="#C9874A" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="7" y1="155" x2="21" y2="162" stroke="#C9874A" stroke-width="1" stroke-linecap="round"/>
   </svg>
   <!-- Handsaw -->
   <svg class="bgt bgt-hs" viewBox="0 0 200 70" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 28 L130 18" stroke="#C8A96E" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M0 40 L130 30" stroke="#C8A96E" stroke-width="1" stroke-linecap="round"/>
-    <path d="M5 40 L9 28 M18 38 L22 27 M31 36 L35 25 M44 34 L48 24 M57 32 L61 22 M70 30 L74 21 M83 29 L87 20 M96 27 L100 19 M109 26 L113 18 M122 24 L126 17" stroke="#C8A96E" stroke-width=".8" stroke-linecap="round"/>
-    <path d="M130 18 L130 30 L160 28 Q175 27 175 24 Q175 20 160 19 L130 18" stroke="#C8A96E" stroke-width="1.5" stroke-linejoin="round"/>
-    <ellipse cx="153" cy="24" rx="9" ry="4" stroke="#C8A96E" stroke-width="1"/>
+    <path d="M0 28 L130 18" stroke="#C9874A" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M0 40 L130 30" stroke="#C9874A" stroke-width="1" stroke-linecap="round"/>
+    <path d="M5 40 L9 28 M18 38 L22 27 M31 36 L35 25 M44 34 L48 24 M57 32 L61 22 M70 30 L74 21 M83 29 L87 20 M96 27 L100 19 M109 26 L113 18 M122 24 L126 17" stroke="#C9874A" stroke-width=".8" stroke-linecap="round"/>
+    <path d="M130 18 L130 30 L160 28 Q175 27 175 24 Q175 20 160 19 L130 18" stroke="#C9874A" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="153" cy="24" rx="9" ry="4" stroke="#C9874A" stroke-width="1"/>
   </svg>
   <!-- Wood plane -->
   <svg class="bgt bgt-wp" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg">
-    <rect x="8" y="30" width="120" height="32" rx="3" stroke="#C8A96E" stroke-width="1.8"/>
-    <ellipse cx="30" cy="30" rx="11" ry="7" stroke="#C8A96E" stroke-width="1.5"/>
-    <path d="M110 30 Q122 18 128 22 Q138 24 138 32 Q138 40 128 43 Q122 45 110 43" stroke="#C8A96E" stroke-width="1.5" fill="none"/>
-    <line x1="68" y1="30" x2="76" y2="58" stroke="#C8A96E" stroke-width="1.8" stroke-linecap="round"/>
-    <line x1="73" y1="30" x2="81" y2="58" stroke="#C8A96E" stroke-width="1" stroke-linecap="round"/>
-    <line x1="8" y1="55" x2="128" y2="55" stroke="#C8A96E" stroke-width=".8" opacity=".5"/>
+    <rect x="8" y="30" width="120" height="32" rx="3" stroke="#C9874A" stroke-width="1.8"/>
+    <ellipse cx="30" cy="30" rx="11" ry="7" stroke="#C9874A" stroke-width="1.5"/>
+    <path d="M110 30 Q122 18 128 22 Q138 24 138 32 Q138 40 128 43 Q122 45 110 43" stroke="#C9874A" stroke-width="1.5" fill="none"/>
+    <line x1="68" y1="30" x2="76" y2="58" stroke="#C9874A" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="73" y1="30" x2="81" y2="58" stroke="#C9874A" stroke-width="1" stroke-linecap="round"/>
+    <line x1="8" y1="55" x2="128" y2="55" stroke="#C9874A" stroke-width=".8" opacity=".5"/>
   </svg>
 </div>
 
@@ -682,8 +682,8 @@ h1{font-size:clamp(1.9rem,3.9vw,3.5rem);line-height:1.1}
 
 <div class="sec-divider" aria-hidden="true">
   <svg viewBox="0 0 1200 24" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <line x1="0" y1="12" x2="1200" y2="12" stroke="#C8A96E" stroke-width="0.6"/>
-    <path d="M 558 12 L 564 4 L 570 4 L 570 1 L 576 1 L 576 4 L 582 4 L 582 1 L 588 1 L 588 4 L 594 4 L 600 12 L 594 20 L 588 20 L 588 23 L 582 23 L 582 20 L 576 20 L 576 23 L 570 23 L 570 20 L 564 20 Z" stroke="#C8A96E" stroke-width="1" stroke-linejoin="miter"/>
+    <line x1="0" y1="12" x2="1200" y2="12" stroke="#C9874A" stroke-width="0.6"/>
+    <path d="M 558 12 L 564 4 L 570 4 L 570 1 L 576 1 L 576 4 L 582 4 L 582 1 L 588 1 L 588 4 L 594 4 L 600 12 L 594 20 L 588 20 L 588 23 L 582 23 L 582 20 L 576 20 L 576 23 L 570 23 L 570 20 L 564 20 Z" stroke="#C9874A" stroke-width="1" stroke-linejoin="miter"/>
   </svg>
 </div>
 
@@ -692,18 +692,18 @@ h1{font-size:clamp(1.9rem,3.9vw,3.5rem);line-height:1.1}
   <div class="guar-glow"></div>
   <div class="guar-stamp" aria-hidden="true">
     <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="88" stroke="#C8A96E" stroke-width="2"/>
-      <circle cx="100" cy="100" r="78" stroke="#C8A96E" stroke-width="0.6"/>
+      <circle cx="100" cy="100" r="88" stroke="#C9874A" stroke-width="2"/>
+      <circle cx="100" cy="100" r="78" stroke="#C9874A" stroke-width="0.6"/>
       <path id="gst" d="M 22 100 A 78 78 0 0 1 178 100" fill="none"/>
-      <text font-size="11.5" fill="#C8A96E" font-family="Georgia,serif" letter-spacing="5">
+      <text font-size="11.5" fill="#C9874A" font-family="Georgia,serif" letter-spacing="5">
         <textPath href="#gst" startOffset="8%">GUARANTEED · MONEY BACK ·</textPath>
       </text>
       <path id="gsb" d="M 22 100 A 78 78 0 0 0 178 100" fill="none"/>
-      <text font-size="11.5" fill="#C8A96E" font-family="Georgia,serif" letter-spacing="5">
+      <text font-size="11.5" fill="#C9874A" font-family="Georgia,serif" letter-spacing="5">
         <textPath href="#gsb" startOffset="12%">24 HOURS · OR FREE ·</textPath>
       </text>
-      <line x1="58" y1="100" x2="142" y2="100" stroke="#C8A96E" stroke-width="0.8"/>
-      <line x1="64" y1="93" x2="136" y2="107" stroke="#C8A96E" stroke-width="0.4"/>
+      <line x1="58" y1="100" x2="142" y2="100" stroke="#C9874A" stroke-width="0.8"/>
+      <line x1="64" y1="93" x2="136" y2="107" stroke="#C9874A" stroke-width="0.4"/>
     </svg>
   </div>
   <div class="container">
@@ -726,8 +726,8 @@ h1{font-size:clamp(1.9rem,3.9vw,3.5rem);line-height:1.1}
 
 <div class="sec-divider" aria-hidden="true">
   <svg viewBox="0 0 1200 24" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <line x1="0" y1="12" x2="1200" y2="12" stroke="#C8A96E" stroke-width="0.6"/>
-    <path d="M 558 12 L 564 4 L 570 4 L 570 1 L 576 1 L 576 4 L 582 4 L 582 1 L 588 1 L 588 4 L 594 4 L 600 12 L 594 20 L 588 20 L 588 23 L 582 23 L 582 20 L 576 20 L 576 23 L 570 23 L 570 20 L 564 20 Z" stroke="#C8A96E" stroke-width="1" stroke-linejoin="miter"/>
+    <line x1="0" y1="12" x2="1200" y2="12" stroke="#C9874A" stroke-width="0.6"/>
+    <path d="M 558 12 L 564 4 L 570 4 L 570 1 L 576 1 L 576 4 L 582 4 L 582 1 L 588 1 L 588 4 L 594 4 L 600 12 L 594 20 L 588 20 L 588 23 L 582 23 L 582 20 L 576 20 L 576 23 L 570 23 L 570 20 L 564 20 Z" stroke="#C9874A" stroke-width="1" stroke-linejoin="miter"/>
   </svg>
 </div>
 
@@ -917,8 +917,8 @@ h1{font-size:clamp(1.9rem,3.9vw,3.5rem);line-height:1.1}
 
 <div class="sec-divider" aria-hidden="true">
   <svg viewBox="0 0 1200 24" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <line x1="0" y1="12" x2="1200" y2="12" stroke="#C8A96E" stroke-width="0.6"/>
-    <path d="M 558 12 L 564 4 L 570 4 L 570 1 L 576 1 L 576 4 L 582 4 L 582 1 L 588 1 L 588 4 L 594 4 L 600 12 L 594 20 L 588 20 L 588 23 L 582 23 L 582 20 L 576 20 L 576 23 L 570 23 L 570 20 L 564 20 Z" stroke="#C8A96E" stroke-width="1" stroke-linejoin="miter"/>
+    <line x1="0" y1="12" x2="1200" y2="12" stroke="#C9874A" stroke-width="0.6"/>
+    <path d="M 558 12 L 564 4 L 570 4 L 570 1 L 576 1 L 576 4 L 582 4 L 582 1 L 588 1 L 588 4 L 594 4 L 600 12 L 594 20 L 588 20 L 588 23 L 582 23 L 582 20 L 576 20 L 576 23 L 570 23 L 570 20 L 564 20 Z" stroke="#C9874A" stroke-width="1" stroke-linejoin="miter"/>
   </svg>
 </div>
 
